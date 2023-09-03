@@ -1,0 +1,28 @@
+@font-face {
+    src: url(font/BebasNeue-Regular.ttf);
+    font-family: netflix;
+}
+@font-face {
+    font-family: soon;
+    src: url(font/Coming\ Soon\ St.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background: red;
+}
+h1{
+    color: darkred;
+    font-family: netflix;
+}
+.continue{
+    color: red;
+    background-color: darkred;
+    font-family: netflix;
+}
+.back{
+    color: red;
+    background-color: green;
+    font-family: netflix;
+}
