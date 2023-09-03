@@ -1,0 +1,25 @@
+.timer {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: netflix;
+    color: #c90d0d;
+}
+  
+.timer span {
+    margin: 0 5px;
+}
+
+.timer-txt {
+    color: #064eac;
+    font-family: flc-flix_v3;
+    text-align: center;
+}
+
+@media screen and (max-width : 768px){
+  .timer{
+    font-size: 16px
+  }
+}

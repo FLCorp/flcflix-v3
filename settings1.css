@@ -1,0 +1,55 @@
+.themes button {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #8120db;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #8120db;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #2e0031 -5px 5px 20px;
+}
+
+.themes button:hover {
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.themes button::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: #8120db;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.themes button:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.themes button:hover {
+    color: white;
+}
+
+.themes button i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.themes button:hover i {
+    transform: scale(5);
+    margin-left: 20px;
+}
