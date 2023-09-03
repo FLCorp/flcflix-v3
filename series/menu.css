@@ -1,0 +1,116 @@
+/* Styles for the menu button */
+.menu-button {
+  padding: 10px 15px;
+  background: linear-gradient(to right, #007BFF, #9900ff);
+  color: #FFFFFF;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 300px;
+  transition: width 0.7s ease, border-radius 0.7s ease;
+  margin-left: 30px;
+}
+
+.menu-button:hover {
+  padding: 10px 15px;
+  background: linear-gradient(to right, #007BFF, #9900ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.menu-a{
+  color: white;
+  margin-left: 10px;
+  font-family: flc-flix_v3;
+  font-size: medium;
+  transition: color 0.7s ease, font-size 0.7s ease;
+}
+
+.menu-a:hover{
+  color: #ff0000;
+  margin-left: 10px;
+  font-family: flc-flix_v3;
+  font-size: x-large;
+}
+  
+/* Styles for the dropdown menu */
+.menu {
+  width: 87%;
+  display: none;
+  position: absolute;
+  background: linear-gradient(to right, #007BFF, #9900ff);
+  z-index: 1;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+
+.img-film{
+  border-radius: 20px;
+  margin-left: 32px;
+}
+
+.menu-title{
+  margin-left: 10px;
+}
+
+@media screen and (max-width : 768px) {
+  .menu-button {
+    padding: 10px 15px;
+    background: linear-gradient(to right, #007BFF, #9900ff);
+    color: #FFFFFF;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 280px;
+    transition: width 0.7s ease, border-radius 0.7s ease;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .menu-button:hover {
+    padding: 10px 15px;
+    background: linear-gradient(to right, #007BFF, #9900ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 290px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .menu-a{
+    color: white;
+    margin-right: 10px;
+    font-family: netflix;
+    font-size: large;
+    transition: color 0.7s ease, font-size 0.7s ease;
+  }
+  .menu-a:hover{
+    color: #ff0000;
+    margin-right: 10px;
+    font-family: netflix;
+    font-size: x-large;
+  }
+  .menu {
+    width: 87%;
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #007BFF, #9900ff);
+    z-index: 1;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .img-film{
+    border-radius: 20px;
+    margin-left: 32px;
+  }
+}
