@@ -371,6 +371,19 @@ strong{
     margin: 0 auto;
 }
 
+.img-docyt{
+    border-radius: 15px;
+    margin: 0 auto;
+    transition: 0.5s ease;
+}
+
+.img-docyt:hover{
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 365px;
+    height: 205px;
+}
+
 @media screen and (max-width : 768px){
     img {
         width: 90px;
@@ -464,5 +477,15 @@ strong{
         color: #0407bd;
         font-size: 16px;
         font-family: netflix;
+    }
+    .fsyt-logo{
+        width: 280px;
+        height: auto;
+    }
+    .img-docyt{
+        border-radius: 15px;
+        margin: 0 auto;
+        width: 280px;
+        height: 170px;
     }
 }
