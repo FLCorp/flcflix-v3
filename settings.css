@@ -378,12 +378,35 @@ h6{
     color: #fff;
 }
 
+.btn4 {
+    width: 26%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #be0000;
+    text-decoration: none;
+    border: 3px solid #0f9900;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+    font-family: netflix;
+    font-size: 1.5em;
+    text-align: center;
+}
+  
+.btn4:hover {
+    border-color: #be0000;
+    color: #0f9900;
+    background-color: #be0000;
+    font-family: netflix;
+}
+
 @media screen and (max-width : 768px){
     h6{
         font-size: 2em;
     }
     img{
-        width: 200px;
+        width: 300px;
         height: auto;
     }
     #hero-section h1 {
@@ -481,6 +504,26 @@ h6{
     nav ul li a:hover {
         color: #0407bd;
         font-size: 16px;
+        font-family: netflix;
+    }
+    .btn4 {
+        width: 50%;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: transparent;
+        color: #be0000;
+        text-decoration: none;
+        border: 3px solid #0f9900;
+        border-radius: 10px;
+        transition: background-color 0.7s ease;
+        transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+        font-family: netflix;
+        font-size: 1em;
+    }
+    .btn4:hover {
+        border-color: #be0000;
+        color: #0f9900;
+        background-color: #be0000;
         font-family: netflix;
     }
 }
