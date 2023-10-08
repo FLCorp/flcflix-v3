@@ -497,7 +497,8 @@ strong{
         font-family: netflix;
     }
     .logo{
-        width: auto;
+        width: 300px;
+        height: auto;
     }
     nav ul {
         list-style: none;
