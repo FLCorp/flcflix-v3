@@ -5,7 +5,7 @@ const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
 
 // Date et heure cible (remplacez cette valeur par la date et l'heure souhaitées)
-const targetDate = new Date('2023-10-09T00:00:00');
+const targetDate = new Date('2023-11-06T00:00:00');
 
 function updateTimer() {
   // Obtenir la date et l'heure actuelles

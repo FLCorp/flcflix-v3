@@ -17,7 +17,7 @@
 /* Styles généraux */
 body {
     font-family: netflix;
-    background-color: #000231;
+    background-color: #312100;
     color: #333;
     line-height: 1.6;
     cursor: url('img/cursor-16px.png'), auto;
@@ -36,7 +36,7 @@ body {
   
 /* En-tête */
 header {
-    background-color: #DB202C;
+    background-color: #0407bd;
     padding: 20px;
 }
   
@@ -56,7 +56,7 @@ nav ul li a {
     transition: 0.5s ease;
 }
 nav ul li a:hover {
-    color: #0407bd;
+    color: #bd7304;
     font-size: 16px;
     font-family: flc-flix_v3;
 }
@@ -65,7 +65,7 @@ nav ul li a:hover {
 #hero-section {
     text-align: center;
     padding: 100px 0;
-    background: linear-gradient(to bottom, #DB202C, #0b006c, #0b006c, #000231);
+    background: linear-gradient(to bottom, #0407bd, #6c3a00, #6c3a00, #312100);
 }
   
 #hero-section h1 {
@@ -281,14 +281,14 @@ strong{
 }
 
 strong{
-    background: linear-gradient(to right, #be0000,#0407bd);
+    background: linear-gradient(to left, #bd7304,#0407bd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .strong2{
-    background: linear-gradient(to left, #be0000,#0407bd);
+    background: linear-gradient(to right, #bd7304,#0407bd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
