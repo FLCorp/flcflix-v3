@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Films d'Action</title>
       <link rel="stylesheet" href="films.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -52,37 +53,43 @@
         </section>
 
         <section id="about-section">
+          <div class="media-container">
+              <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-nyqcewmrc3nc.html" frameborder="0" allowfullscreen></iframe>
+              <img src="img/title/Action.png" alt="Logo" class="logo">
+          </div>
           <div>
-            <a href="https://uqload.io/nyqcewmrc3nc.html"><img src="posters/black_adam.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/zrinkk4m6ebd.html"><img src="posters/bullet_train_poster.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/tvksprmixiv7.html"><img src="posters/meg.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/3ue9iqnrpoai.html"><img src="posters/meg_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/6gdg062kue8v.html"><img src="posters/gran_turismo.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/0rgw6eayxjpy.html"><img src="posters/john_wick.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/i0einmxv5xd5.html"><img src="posters/john_wick_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/3nnos4gtl01c.html"><img src="posters/john_wick_three.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/jiviv0858fv9.html"><img src="posters/john_wick_four.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/bepz2setootl.html"><img src="posters/trois_mousquetaires.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/htli4fn66r0b.html"><img src="posters/men_in_black_poster.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ermm7yr80k9d.html"><img src="posters/men_in_black_ii_poster.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ry7sqjpg90yp.html"><img src="posters/men_in_black_iii_poster.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/dhn5uy10816b.html"><img src="posters/men_in_black_international_poster.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/t6uhbt4br5y8.html"><img src="posters/tetris.jfif" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/nccuave7a6c9.html"><img src="posters/top_gun.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/6sdxp3agiiyt.html"><img src="posters/top_gun_maverick_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('nyqcewmrc3nc.html')"><img src="posters/black_adam.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('zrinkk4m6ebd.html')"><img src="posters/bullet_train_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('tvksprmixiv7.html')"><img src="posters/meg.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('3ue9iqnrpoai.html')"><img src="posters/meg_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('6gdg062kue8v.html')"><img src="posters/gran_turismo.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('f3r292ktm0jl.html')"><img src="posters/hunger_games.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('k4k1m7l640ia.html')"><img src="posters/hunger_games_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('jrantas6tqne.html')"><img src="posters/hunger_games_three.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('8q6yjf9jnpo0.html')"><img src="posters/hunger_games_four.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('0rgw6eayxjpy.html')"><img src="posters/john_wick.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('i0einmxv5xd5.html')"><img src="posters/john_wick_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('3nnos4gtl01c.html')"><img src="posters/john_wick_three.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('jiviv0858fv9.html')"><img src="posters/john_wick_four.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('bepz2setootl.html')"><img src="posters/trois_mousquetaires.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('htli4fn66r0b.html')"><img src="posters/men_in_black_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ermm7yr80k9d.html')"><img src="posters/men_in_black_ii_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ry7sqjpg90yp.html')"><img src="posters/men_in_black_iii_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('dhn5uy10816b.html')"><img src="posters/men_in_black_international_poster.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ugkhzfp3avj3.html')"><img src="posters/tenet.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('t6uhbt4br5y8.html')"><img src="posters/tetris.jfif" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('nccuave7a6c9.html')"><img src="posters/top_gun.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('6sdxp3agiiyt.html')"><img src="posters/top_gun_maverick_poster.jpg" width="170" height="250" class="img-film"></a>
           </div>
           <br><br>
           <div>
             <img src="img/FLC-Flix_3-VOSTFR-logo_v1.png" class="vostfr">
             <div>
-                <a href="https://uqload.io/xdag51uxzwmd.html"><img src="posters/black_adam.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/4idklbs9dwlh.html"><img src="posters/bullet_train_poster.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/3ue9iqnrpoai.html"><img src="posters/meg_two.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/1u79972jbkag.html"><img src="posters/gran_turismo.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/6yk18s83vozl.html"><img src="posters/john_wick_three.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/l4idtc72bipr.html"><img src="posters/john_wick_four.jpg" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/h5207bm1jba1.html"><img src="posters/tetris.jfif" width="170" height="250" class="img-film"></a>
-                <a href="https://uqload.io/67hw126d2rwm.html"><img src="posters/top_gun_maverick_poster.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('xdag51uxzwmd.html')"><img src="posters/black_adam.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('4idklbs9dwlh.html')"><img src="posters/bullet_train_poster.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('3ue9iqnrpoai.html')"><img src="posters/meg_two.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('1u79972jbkag.html')"><img src="posters/gran_turismo.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('67hw126d2rwm.html')"><img src="posters/top_gun_maverick_poster.jpg" width="170" height="250" class="img-film"></a>
             </div>
           </div>
         </section>
@@ -111,5 +118,6 @@
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>
