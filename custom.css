@@ -17,16 +17,14 @@
 /* Styles généraux */
 body {
     font-family: netflix;
-    background-color: #312100;
+    background-color: #000231;
     color: #333;
     line-height: 1.6;
-    cursor: url('img/cursor-16px.png'), auto;
 }
 
 .fsd-logo{
     width: auto;
     height: auto;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .container {
@@ -37,7 +35,7 @@ body {
   
 /* En-tête */
 header {
-    background-color: #0407bd;
+    background-color: #DB202C;
     padding: 20px;
 }
   
@@ -55,10 +53,9 @@ nav ul li a {
     font-size: 16px;
     font-family: flc-flix_v3;
     transition: 0.5s ease;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
 nav ul li a:hover {
-    color: #bd7304;
+    color: #0407bd;
     font-size: 16px;
     font-family: flc-flix_v3;
 }
@@ -67,7 +64,7 @@ nav ul li a:hover {
 #hero-section {
     text-align: center;
     padding: 100px 0;
-    background: linear-gradient(to bottom, #0407bd, #6c3a00, #6c3a00, #312100);
+    background: linear-gradient(to bottom, #DB202C, #0b006c, #0b006c, #000231);
 }
   
 #hero-section h1 {
@@ -90,7 +87,6 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .btn:hover {
@@ -219,7 +215,6 @@ strong{
     transition: border-radius 0.5s ease, background-color 0.7s ease, font-size 0.7s ease;
     font-family: flc-flix_v3;
     font-size: 1.5em;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .btn2:hover {
@@ -242,7 +237,6 @@ strong{
     background: linear-gradient(to right, #0013be, #060054);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
 
 ::-webkit-scrollbar {
@@ -286,14 +280,14 @@ strong{
 }
 
 strong{
-    background: linear-gradient(to left, #bd7304,#0407bd);
+    background: linear-gradient(to right, #be0000,#0407bd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .strong2{
-    background: linear-gradient(to right, #bd7304,#0407bd);
+    background: linear-gradient(to left, #be0000,#0407bd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -335,7 +329,6 @@ strong{
     transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
     font-family: netflix;
     font-size: 1.5em;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .btn3:hover {
@@ -356,7 +349,6 @@ strong{
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .chill-btn:hover {
@@ -367,13 +359,11 @@ strong{
     border-radius: 15px;
     margin: 0 auto;
     transition: width 0.7s ease, height 0.7s ease;
-    cursor: url('img/cursor-16px.png'), auto;
 }
 
 .img-fsd:hover{
     width: 180px;
     height: 260px;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
 
 .main1{
@@ -388,7 +378,6 @@ strong{
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-    cursor: url('img/cursor-16px_red.png'), auto;
 }
   
 .btn4:hover {
@@ -497,8 +486,7 @@ strong{
         font-family: netflix;
     }
     .logo{
-        width: 300px;
-        height: auto;
+        width: auto;
     }
     nav ul {
         list-style: none;
