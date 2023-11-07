@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Regarder Better Call Saul</title>
       <link rel="stylesheet" href="season.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -41,30 +42,34 @@
 
         <section id="about-section">
           <div>
-            <h1 id="Season1"><strong>Saison 1</strong></h1>
-            <a href="https://uqload.io/5fu5il2fn1r5.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.io/6r6jue1kebdc.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.io/4pipw6o6w4y4.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.io/sde9wpztpxdg.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.io/ppcyiiff10p8.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.io/ppyiq4lodhit.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.io/bteu64afam2k.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.io/7at96ezj0ben.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.io/6n4q9kmhfq0s.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.io/3kaorgr1afdc.html" class="serie-a">Episode 10</a>
-          </div>
-          <br>
-          <div>
-            <img src="img/Saison2.png" id="Season2"><br>
-            <a href="https://uqload.io/t59rfi5xtxyl.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.io/jpbqtanotsug.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.io/7lyxsoi1bis1.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.io/2aahic2gphl3.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.io/aq37hl9s44yd.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.io/8b5x6dh5s3kt.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.io/w9bvpjea1ng9.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.io/nwjfr6re41m1.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.io/yo7y21p1vx51.html" class="serie-a">Episode 10</a>
+            <div class="media-container">
+                <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-5fu5il2fn1r5.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="button-container">
+                <h1 id="Season1"><strong>Saison 1</strong></h1>
+                <button onclick="changeMedia('5fu5il2fn1r5.html')" class="media-btn">Episode 1</button>
+                <button onclick="changeMedia('6r6jue1kebdc.html')" class="media-btn">Episode 2</button>
+                <button onclick="changeMedia('4pipw6o6w4y4.html')" class="media-btn">Episode 3</button>
+                <button onclick="changeMedia('sde9wpztpxdg.html')" class="media-btn">Episode 4</button>
+                <button onclick="changeMedia('ppcyiiff10p8.html')" class="media-btn">Episode 5</button>
+                <button onclick="changeMedia('ppyiq4lodhit.html')" class="media-btn">Episode 6</button>
+                <button onclick="changeMedia('bteu64afam2k.html')" class="media-btn">Episode 7</button>
+                <button onclick="changeMedia('7at96ezj0ben.html')" class="media-btn">Episode 8</button>
+                <button onclick="changeMedia('6n4q9kmhfq0s.html')" class="media-btn">Episode 9</button>
+                <button onclick="changeMedia('3kaorgr1afdc.html')" class="media-btn">Episode 10</button>
+                <br><br><br>
+                <img src="img/Saison2.png" id="Season2"><br>
+                <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+                <button onclick="changeMedia('t59rfi5xtxyl.html')" class="media-btn">Episode 1</button>
+                <button onclick="changeMedia('jpbqtanotsug.html')" class="media-btn">Episode 2</button>
+                <button onclick="changeMedia('7lyxsoi1bis1.html')" class="media-btn">Episode 3</button>
+                <button onclick="changeMedia('2aahic2gphl3.html')" class="media-btn">Episode 5</button>
+                <button onclick="changeMedia('aq37hl9s44yd.html')" class="media-btn">Episode 6</button>
+                <button onclick="changeMedia('8b5x6dh5s3kt.html')" class="media-btn">Episode 7</button>
+                <button onclick="changeMedia('w9bvpjea1ng9.html')" class="media-btn">Episode 8</button>
+                <button onclick="changeMedia('nwjfr6re41m1.html')" class="media-btn">Episode 9</button>
+                <button onclick="changeMedia('yo7y21p1vx51.html')" class="media-btn">Episode 10</button>
+            </div>
           </div>
         </section>
 
@@ -87,5 +92,6 @@
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>

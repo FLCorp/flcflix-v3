@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Regarder 1899</title>
       <link rel="stylesheet" href="season.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -33,14 +34,20 @@
 
         <section id="about-section">
           <div>
-            <h1><strong>Saison 1</strong></h1>
-            <a href="https://uqload.io/4mn3npj8vtd4.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.io/ezsxoxapkb6h.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.io/mgl23jc3tnt7.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.io/comfrc2crhxo.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.io/h9wjwkpg83ht.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.io/kb36tbze78cb.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.io/gwl7ng1s0g99.html" class="serie-a">Episode 7</a>
+            <div class="media-container">
+                <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-snxzcrgdigjc.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="button-container">
+                <h1 id="Season1"><strong>Saison 1</strong></h1>
+                <button onclick="changeMedia('snxzcrgdigjc.html')" class="media-btn">Episode 1</button>
+                <button onclick="changeMedia('w82lhogyjwcm.html')" class="media-btn">Episode 2</button>
+                <button onclick="changeMedia('jvodq8tg1pro.html')" class="media-btn">Episode 3</button>
+                <button onclick="changeMedia('qrspxkwmugl7.html')" class="media-btn">Episode 4</button>
+                <button onclick="changeMedia('v26ft8hfrirp.html')" class="media-btn">Episode 5</button>
+                <button onclick="changeMedia('89w5v34xroxd.html')" class="media-btn">Episode 6</button>
+                <button onclick="changeMedia('5lwkc2bhal4f.html')" class="media-btn">Episode 7</button>
+                <button onclick="changeMedia('11z5mu3cveih.html')" class="media-btn">Episode 8</button>
+            </div>
           </div>
         </section>
 
@@ -63,5 +70,6 @@
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>
