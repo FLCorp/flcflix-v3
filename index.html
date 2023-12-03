@@ -3,14 +3,33 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.5</title>
+      <title>FLC Flix V3.6</title>
       <link rel="stylesheet" href="custom.css">
       <link rel="stylesheet" href="timer.css">
       <link rel="stylesheet" href="menu.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
-      <header>
+    <div class="popup" id="popup">
+      <h2>Nouvelle Mise à Jour: FLC-Flix_3.6!</h2>
+      <p>
+        Cette MàJ est spéciale dans l'avancement de FLC Flix vers un site de streaming quasi parfait, où tout
+        le monde se sent à l'aise. Et cette fois-ci, c'est la grande arrivée des Raccourcis Claviers!
+        Et oui, FLC Flix débarque avec une nouvelle nouveautés plutôt intéressante. Malheureusement, cet ajout
+        est seulement disponible sur ordinateur, ou sinon pour y accéder sur vos mobiles, vous pouvez tout simplement
+        leur connecter un clavier. Les raccourcis sont les suivants: "T" pour revenir en haut de la page. "F" pour
+        voir la liste des nouveaux films. "S" pour voir la liste des nouvelles séries. "D" pour voir la liste des nouveaux documentaires.
+        Et pour temriner, "B" pour allez tout en bas de la page. <br>
+        Mais en plus des raccourcis, nous avons continuer à expendre notre fonction de lecture intégrée. Et cette fois,
+        ce sont les catégories "Animation" et " Aventure" qui se voient touchées, mais aussi la série "Dahmer: Monstre"! <br>
+        Pour temriner ce Patch Note, nous avons ajouté dans la Barre de Naviguation un lien vers le "FOB Web Site",
+        récemment sortis le 25 Novembre. <br>
+        Au plaisir de continuer FLC Flix!
+        <br>
+        <button id="closeButton">Fermer</button>
+      </p>
+    </div>
+      <header id="top">
         <nav>
           <ul>
             <li><a href="films.html">Films</a></li>
@@ -18,6 +37,7 @@
             <li><a href="documentaire.html">DocumEntaires</a></li>
             <li><a href="settings.html">ParamEtres</a></li>
             <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
+            <li><a href="https://flcorp.github.io/FOB-Web-Site/" target="_blank">FOB Web Site</a></li>
             <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
           </ul>
         </nav>
@@ -30,32 +50,35 @@
             </div>
           <h1>Bienvenue sur <strong>FLC flix V3</strong></h1>
           <p>Un site de la <strong>FLCorporation</strong> | <strong class="strong2">FLCorp-web</strong></p>
-          <p>Version <strong>3.5.0</strong></p>
+          <p>Version <strong>3.6.0</strong></p>
         </section>
       </main>
 
       <main>
         <section id="about-section">
-          <a href="films.html"><img src="img/FLC-Flix_3-Films-logo_v1.png" class="fsd-logo"></a>
+          <a href="films.html"><img src="img/FLC-Flix_3-Films-logo_v1.png" class="fsd-logo" id="films"></a>
           <br>
-          <a href="films/action.html"><img src="films/posters/hunger_games.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/action.html"><img src="films/posters/hunger_games_two.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/action.html"><img src="films/posters/hunger_games_three.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/action.html"><img src="films/posters/hunger_games_four.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="https://uqload.io/8zm5lc3ao12s.html"><img src="films/posters/inception.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="https://uqload.io/piq396v8hlo5.html"><img src="films/posters/interstellar.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="https://uqload.io/qcsfqhsag886.html"><img src="films/posters/dunkerque.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/action.html"><img src="films/posters/tenet.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="https://uqload.io/rtvv4tv9u8xl.html"><img src="films/posters/30_jours_max.jpeg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/mystere.html"><img src="films/posters/mort_sur_nil.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="films/mystere.html"><img src="films/posters/mystère_venise.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/48msy8ukddi7.html"><img src="films/posters/gardiens_galaxie.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/p1ar514288se.html"><img src="films/posters/gardiens_galaxie_two.jpeg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/v4wxrm3md5a8.html"><img src="films/posters/gardiens_galaxie_three.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/v6x02bltp37o.html"><img src="films/posters/the_creator.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/p3wqvjqewon7.html"><img src="films/posters/fnaf.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/mjkaqf4iky63.html"><img src="films/posters/oppenheimer.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/t0jkvwbam4nu.html"><img src="films/posters/thor.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/seoxwuwkz9xx.html"><img src="films/posters/thor_two.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/kwsdrp4sbm5o.html"><img src="films/posters/thor_three.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/tslco56qjc9b.html"><img src="films/posters/thor_four.jpg" width="170" height="250" class="img-fsd"></a>
+          <br><br>
+          <img src="img/FLC-Flix_3-VOSTFR-logo_v1.png" alt="">
+          <br>
+          <a href="https://uqload.io/i3xgchd1jmuk.html"><img src="films/posters/gardiens_galaxie_three.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/qdurpkb652cq.html"><img src="films/posters/fnaf.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/t6a7qia8rv6r.html"><img src="films/posters/oppenheimer.jpg" width="170" height="250" class="img-fsd"></a>
         </section>
         <section id="about-section">
-          <a href="series.html"><img src="img/FLC-Flix_3-Series-logo_v1.png" class="fsd-logo"></a>
+          <a href="series.html"><img src="img/FLC-Flix_3-Series-logo_v1.png" class="fsd-logo" id="series"></a>
           <br>          
-          <a href="series/helluvaboss.html"><img src="img/posters/helluva_boss.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="series/murderdrones.html"><img src="img/posters/murder_drones.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="series/peakyblinders.html"><img src="img/posters/peaky_blinders.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="series/goosebumps.html"><img src="img/posters/goosebumps.jpg" width="170" height="250" class="img-fsd"></a>
           <br>
           <h1 class="news-seasons">NouvElles Saisons [3.4 & 3.5]</h1>
           <a href="series/peakyblinders.html#Season2"><img src="img/posters/peaky_blinders_s2.jpg" width="170" height="250" class="img-fsd"></a>
@@ -72,11 +95,9 @@
           </section>
         </section>
         <section id="about-section">
-          <a href="documentaire.html"><img src="img/FLC-Flix_3-Documentaires-logo_v1.png" class="fsd-logo doc-logo"></a>
+          <a href="documentaire.html"><img src="img/FLC-Flix_3-Documentaires-logo_v1.png" class="fsd-logo doc-logo" id="docs"></a>
           <br>
-          <a href="https://uqload.io/26wli16mtzgm.html"><img src="img/posters/exomars.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="documentaire.html#serie"><img src="img/posters/prehistoric_planet_two.jpg" width="170" height="250" class="img-fsd"></a>
-          <a href="documentaire.html#serie"><img src="img/posters/our_planet.jpg" width="170" height="250" class="img-fsd"></a>
+          <a href="https://uqload.io/p3mqe09qre70.html"><img src="img/posters/walt_disney.jpg" width="170" height="250" class="img-fsd"></a>
         </section>
 
         <section id="services-section" class="services-section">
@@ -97,7 +118,7 @@
         </section>
       </main>
 
-      <h1 class="timer-txt">La V3.6 arrive dans</h1>
+      <h1 class="timer-txt">La V3.7 arrive dans</h1>
       <div class="timer">
         <span id="days">00</span> jours
         <span id="hours">00</span> heures
@@ -105,12 +126,13 @@
         <span id="seconds">00</span> secondes
       </div>
 
-      <footer>
+      <footer id="bottom">
         <p>&copy; 2023 FLCorporation | &copy; FLCorp-Web<br> Héberger sous le service de Github</p>
       </footer>
 
       <script src="timer.js"></script>
       <script src="popup.js"></script>
       <script src="menu.js"></script>
+      <script src="key.js"></script>
   </body>
 </html>
