@@ -406,6 +406,22 @@ strong{
     border-radius: 15px;
 }
 
+.advertissement0{
+    font-family: netflix;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.advertissement1{
+    font-family: netflix;
+    font-size: 1.5em;
+    background: linear-gradient(to right, rgb(254, 0, 0), #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width : 768px){
     img {
         width: 250px;
