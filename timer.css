@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     font-family: netflix;
-    color: #c90d0d;
+    color: #6c0000;
 }
   
 .timer span {
@@ -13,7 +13,7 @@
 }
 
 .timer-txt {
-    color: #064eac;
+    color: #bd0404;
     font-family: flc-flix_v3;
     text-align: center;
 }
