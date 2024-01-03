@@ -5,7 +5,7 @@ const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
 
 // Date et heure cible (remplacez cette valeur par la date et l'heure souhaitées)
-const targetDate = new Date('2024-01-01T00:00:00');
+const targetDate = new Date('2024-01-08T00:00:00');
 
 function updateTimer() {
   // Obtenir la date et l'heure actuelles
@@ -21,7 +21,7 @@ function updateTimer() {
     minutesElement.textContent = '00';
     secondsElement.textContent = '00';
     clearInterval(interval);
-    alert("La nouvelle MAJ débarque bientôt!");
+    alert("La nouvelle MàJ de FLC Flix débarque bientôt!");
     return;
   }
 

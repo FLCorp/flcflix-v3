@@ -240,16 +240,16 @@ strong{
 }
 
 ::-webkit-scrollbar {
-    background-color: #004c8b;
+    background-color:#000231;
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #0407bd;
+    background-color: #fff;
     border-radius: 5px;
     
 }
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
 
 .alpha-btn{
@@ -400,6 +400,52 @@ h6{
     font-family: netflix;
 }
 
+.btn5 {
+    width: 30%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #F7FF19;
+    text-decoration: none;
+    border: 3px solid #F7FF19;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+    font-family: netflix;
+    font-size: 1.5em;
+    text-align: center;
+}
+  
+.btn5:hover {
+    border-color: #F7FF19;
+    color: #000000;
+    background-color: #F7FF19;
+    font-family: netflix;
+}
+
+.btn01 {
+    width: 30%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #176300;
+    text-decoration: none;
+    border: 3px solid #58d44a;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+    font-family: netflix;
+    font-size: 1.5em;
+    text-align: center;
+}
+  
+.btn01:hover {
+    border-color: #176300;
+    color: #58d44a;
+    background-color: #176300;
+    font-family: netflix;
+}
+
 @media screen and (max-width : 768px){
     h6{
         font-size: 2em;
@@ -523,6 +569,28 @@ h6{
         border-color: #be0000;
         color: #0f9900;
         background-color: #be0000;
+        font-family: netflix;
+    }
+
+    .btn5 {
+        width: 50%;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: transparent;
+        color: #F7FF19;
+        text-decoration: none;
+        border: 3px solid #F7FF19;
+        border-radius: 10px;
+        transition: background-color 0.7s ease;
+        transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+        font-family: netflix;
+        font-size: 1em;
+    }
+      
+    .btn5:hover {
+        border-color: #F7FF19;
+        color: #000000;
+        background-color: #F7FF19;
         font-family: netflix;
     }
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FLC Flix V4 Prototype</title>
+      <link rel="stylesheet" href="directing.css">
+      <link rel="stylesheet" href="timer.css">
+      <link rel="stylesheet" href="menu.css">
+      <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
+    </head>
+    <body>
+      <header id="top">
+        <nav>
+          <ul>
+            <li><a href="settings.html">Retour</a></li>
+            <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
+            <li><a href="https://flcorp.github.io/FOB-Web-Site/" target="_blank">FOB Web Site</a></li>
+            <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main1">
+        <section id="hero-section">
+            <div class="logo-container">
+              <img src="img/redirection.png" alt="Logo" class="logo">
+            </div>
+          <h1>Vous sortez de FLC Flix, voulez-vous continuer?</h1>
+        </section>
+      </main>
+
+      <main class="code-zone">
+        <div id="container">
+            <h2>Petit Jeu: Trouve le Mot de Passe</h2>
+            <p>Le MDP est caché sous forme d'énigme. Pour le trouver, osuivez seulement votre logique.</p>
+            <p>Entrez le MDP ici:</p>
+            <input type="password" id="accessCodeInput" placeholder="Code d'accès">
+            <button onclick="checkAccessCode()" id="accessBtn">Valider</button>
+            <p id="errorMessage"></p>
+        </div>
+      </main>
+
+      <footer id="bottom">
+        <p>&copy; 2024 FLCorporation | &copy; FLCorp-Web<br> Héberger sous le service de Github</p>
+      </footer>
+
+      <script src="directing.js"></script>
+  </body>
+</html>

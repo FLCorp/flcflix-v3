@@ -54,6 +54,17 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+document.addEventListener('keydown', function(event) {
+    // Vérifie si la touche appuyée est la touche souhaitée
+    if (event.key === 'n') {
+        // Empêche le comportement par défaut de la touche
+        event.preventDefault();
+
+        // Appelle la fonction pour faire défiler vers l'élément avec l'ID spécifié, par exemple 'monElement'
+        scrollToElement('news-update');
+    }
+});
+
 // Fonction pour faire défiler vers un élément par son ID
 function scrollToElement(elementId) {
     // Récupère l'élément par son ID
