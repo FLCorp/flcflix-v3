@@ -358,12 +358,11 @@ strong{
 .img-fsd{
     border-radius: 15px;
     margin: 0 auto;
-    transition: width 0.7s ease, height 0.7s ease;
+    transition: all 0.4s ease;
 }
 
 .img-fsd:hover{
-    width: 180px;
-    height: 260px;
+    opacity: 50%;
 }
 
 .main1{
