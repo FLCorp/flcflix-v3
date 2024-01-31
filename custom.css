@@ -26,6 +26,11 @@ body {
     width: auto;
     height: auto;
 }
+
+.fsd-logo-docs{
+    width: 300px;
+    height: auto;
+}
   
 .container {
     max-width: 1200px;
@@ -426,6 +431,20 @@ strong{
     width: 362px;
 }
 
+.news-1 {
+    font-size: 4em;
+    background-image: url(img/Orbite/teaser_background.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.news-2 {
+    font-size: 4em;
+    color: #fff;
+}
+
 .conseil{
     font-family: Arial;
     color: #fff;
@@ -575,7 +594,11 @@ strong{
         height: auto;
     }
 
-    .news{
+    .news-1{
+        font-size: 1em;
+    }
+
+    .news-2{
         font-size: 1em;
     }
 
