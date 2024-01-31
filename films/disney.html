@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Films Disney</title>
       <link rel="stylesheet" href="films.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -36,7 +37,7 @@
         <section class="wait">
           <button class="menu-button">Naviguation Rapide (Menu des Catégories)</button>
           <div class="menu">
-            <a href="action.html" class="menu-a">Action/a>
+            <a href="action.html" class="menu-a">Action</a>
             <a href="animation.html" class="menu-a">Animation</a>
             <a href="aventure.html" class="menu-a">Aventure</a>
             <a href="biopic.html" class="menu-a">Biopic</a>
@@ -53,35 +54,40 @@
         </section>
 
         <section id="about-section">
+          <div class="media-container">
+              <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-qp4es8gqf0ss.html" frameborder="0" allowfullscreen></iframe>
+              <br>
+              <img src="img/title/Disney.png" alt="Logo" class="logo">
+          </div>
           <div>
-            <a href="https://uqload.io/qp4es8gqf0ss.html"><img src="posters/turning_red.jpeg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/hz9m9ssd75cw.html"><img src="posters/bambi.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/r92yqkbyjpje.html"><img src="posters/bambi_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/jmffxfq0de2l.html"><img src="posters/cars.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/x3eo8rnsek3x.html"><img src="posters/cars_two.png" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/qoqg82372p0x.html"><img src="posters/cars_three.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/xll86o38bbwz.html"><img src="posters/coco.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/9h41xmjsb9h8.html"><img src="posters/encanto.png" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/lyvkdwnfk6wm.html"><img src="posters/lion_king.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ws8vjpqccmn0.html"><img src="posters/lion_king_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/7wewc3p0kfjg.html"><img src="posters/lion_king_three.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/bv5n0hteaulo.html"><img src="posters/dalmatians.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/uwyo4p0fc2ge.html"><img src="posters/indestructible.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/w7scimlaryes.html"><img src="posters/indestructible_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/wd010chn2fd9.html"><img src="posters/luca.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/4messqkzdnju.html"><img src="posters/monsters_cie.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/0qi8zl9tbgh3.html"><img src="posters/ratatouille.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/2euf68unn4co.html"><img src="posters/toy_story.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/gllu7mirimr4.html"><img src="posters/toy_story_two.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/7f2q64tbbn0r.html"><img src="posters/toy_story_three.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ijjcvolcywuu.html"><img src="posters/toy_story_four.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/hene840nekmq.html"><img src="posters/walle.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/cmk6ksf5ejpb.html"><img src="posters/zootopia.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('qp4es8gqf0ss.html')"><img src="posters/turning_red.jpeg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('hz9m9ssd75cw.html')"><img src="posters/bambi.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('r92yqkbyjpje.html')"><img src="posters/bambi_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('jmffxfq0de2l.html')"><img src="posters/cars.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('x3eo8rnsek3x.html')"><img src="posters/cars_two.png" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('qoqg82372p0x.html')"><img src="posters/cars_three.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('xll86o38bbwz.html')"><img src="posters/coco.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('9h41xmjsb9h8.html')"><img src="posters/encanto.png" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('lyvkdwnfk6wm.html')"><img src="posters/lion_king.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ws8vjpqccmn0.html')"><img src="posters/lion_king_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('7wewc3p0kfjg.html')"><img src="posters/lion_king_three.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('bv5n0hteaulo.html')"><img src="posters/dalmatians.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('uwyo4p0fc2ge.html')"><img src="posters/indestructible.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('w7scimlaryes.html')"><img src="posters/indestructible_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('wd010chn2fd9.html')"><img src="posters/luca.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('4messqkzdnju.html')"><img src="posters/monsters_cie.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('0qi8zl9tbgh3.html')"><img src="posters/ratatouille.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('2euf68unn4co.html')"><img src="posters/toy_story.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('gllu7mirimr4.html')"><img src="posters/toy_story_two.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('7f2q64tbbn0r.html')"><img src="posters/toy_story_three.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ijjcvolcywuu.html')"><img src="posters/toy_story_four.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('hene840nekmq.html')"><img src="posters/walle.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('cmk6ksf5ejpb.html')"><img src="posters/zootopia.jpg" width="170" height="250" class="img-film"></a>
           </div>
         </section>
 
         <section id="services-section" class="services-section">
-          <a href="https://flcorp.github.io/flcflix/findex.html" target="_blank" class="btn">Accueil</a>
+          <a href="https://flcorp.github.io/flcflix/" target="_blank" class="btn">Accueil</a>
           <a href="https://flcorp.github.io/flcflix/films.html" target="_blank" class="btn">Films</a>
           <a href="https://flcorp.github.io/flcflix/series.html" target="_blank" class="btn">Séries</a>
           <a href="https://flcorp.github.io/flcflix/documentaire.html" target="_blank" class="btn">Documentaires</a>
@@ -100,9 +106,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>Tous droits réservés &copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>

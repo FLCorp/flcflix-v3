@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Films de Guerre</title>
       <link rel="stylesheet" href="films.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -53,26 +54,35 @@
         </section>
 
         <section id="about-section">
+          <div class="media-container">
+              <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-w0uj2o545hmk.html" frameborder="0" allowfullscreen></iframe>
+              <br>
+              <img src="img/title/Guerre.png" alt="Logo" class="logo">
+          </div>
           <div>
-            <a href="https://uqload.io/w0uj2o545hmk.html"><img src="posters/ouest_rien.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/owklhrhe3q7i.html"><img src="posters/auschiwtz.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/qcsfqhsag886.html"><img src="posters/dunkerque.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/d01bandn7tpe.html"><img src="posters/longest_day.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/o8io8wv57a3n.html"><img src="posters/stalingrad.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/tsrywifj3cp7.html"><img src="posters/hacksaw_ridge.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/w0fjvciw2xdv.html"><img src="posters/long_dimanche_fiancialles.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('w0uj2o545hmk.html')"><img src="posters/ouest_rien.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('owklhrhe3q7i.html')"><img src="posters/auschiwtz.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('qcsfqhsag886.html')"><img src="posters/dunkerque.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('pp2zme87tn91.html')"><img src="posters/la_chute.jpg" width="170" height="250" class="img-film" id="laChute"></a>
+            <a href="#media-player" onclick="changeMedia('0vdtwr8vfp8g.html')"><img src="posters/schindler_list.jpg" width="170" height="250" class="img-film" id="schindlerList"></a>
+            <a href="#media-player" onclick="changeMedia('d01bandn7tpe.html')"><img src="posters/longest_day.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('8cc1qx0ske4n.html')"><img src="posters/napoléon.jpg" width="170" height="250" class="img-film" id="napoleon"></a>
+            <a href="#media-player" onclick="changeMedia('o8io8wv57a3n.html')"><img src="posters/stalingrad.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('hz2yj5plzd65.html')"><img src="posters/stalingrad_2000.jpg" width="170" height="250" class="img-film" id="stalingrad2000"></a>
+            <a href="#media-player" onclick="changeMedia('tsrywifj3cp7.html')"><img src="posters/hacksaw_ridge.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('w0fjvciw2xdv.html')"><img src="posters/long_dimanche_fiancialles.jpg" width="170" height="250" class="img-film"></a>
           </div>
           <br><br>
           <div>
             <img src="img/FLC-Flix_3-VOSTFR-logo_v1.png" class="vostfr">
             <div>
-                <a href="https://uqload.io/ds003bjpti63.html"><img src="posters/hacksaw_ridge.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('ds003bjpti63.html')"><img src="posters/hacksaw_ridge.jpg" width="170" height="250" class="img-film"></a>
             </div>
           </div>
         </section>
 
         <section id="services-section" class="services-section">
-          <a href="https://flcorp.github.io/flcflix/findex.html" target="_blank" class="btn">Accueil</a>
+          <a href="https://flcorp.github.io/flcflix/" target="_blank" class="btn">Accueil</a>
           <a href="https://flcorp.github.io/flcflix/films.html" target="_blank" class="btn">Films</a>
           <a href="https://flcorp.github.io/flcflix/series.html" target="_blank" class="btn">Séries</a>
           <a href="https://flcorp.github.io/flcflix/documentaire.html" target="_blank" class="btn">Documentaires</a>
@@ -91,9 +101,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>Tous droits réservés &copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>

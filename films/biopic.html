@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3.0.0 - Biopic</title>
       <link rel="stylesheet" href="films.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -36,7 +37,7 @@
         <section class="wait">
           <button class="menu-button">Naviguation Rapide (Menu des Catégories)</button>
           <div class="menu">
-            <a href="action.html" class="menu-a">Action/a>
+            <a href="action.html" class="menu-a">Action</a>
             <a href="animation.html" class="menu-a">Animation</a>
             <a href="aventure.html" class="menu-a">Aventure</a>
             <a href="comedie.html" class="menu-a">ComEdie</a>
@@ -53,27 +54,32 @@
         </section>
 
         <section id="about-section">
+          <div class="media-container">
+              <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-qgaaen0pstbx.html" frameborder="0" allowfullscreen></iframe>
+              <br>
+              <img src="img/title/Biopic.png" alt="Logo" class="logo">
+          </div>
           <div>
-            <a href="https://uqload.io/qgaaen0pstbx.html"><img src="posters/churchill.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/550ej8u7czu8.html"><img src="posters/de_gaulle.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/9zgoc9ax6kk4.html"><img src="posters/lamborghini.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/r8ppc2m55k22.html"><img src="posters/fondator.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/wrshw4eqt0zw.html"><img src="posters/mans_66.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ll7vxqufr361.html"><img src="posters/figures_ombre.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/6g3c68vpvkbf.html"><img src="posters/lincoln.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/mjkaqf4iky63.html"><img src="posters/oppenheimer.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('qgaaen0pstbx.html')"><img src="posters/churchill.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('550ej8u7czu8.html')"><img src="posters/de_gaulle.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('9zgoc9ax6kk4.html')"><img src="posters/lamborghini.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('r8ppc2m55k22.html')"><img src="posters/fondator.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('wrshw4eqt0zw.html')"><img src="posters/mans_66.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ll7vxqufr361.html')"><img src="posters/figures_ombre.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('6g3c68vpvkbf.html')"><img src="posters/lincoln.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('mjkaqf4iky63.html')"><img src="posters/oppenheimer.jpg" width="170" height="250" class="img-film"></a>
           </div>
           <br><br>
           <div>
             <img src="img/FLC-Flix_3-VOSTFR-logo_v1.png" class="vostfr">
             <div>
-                <a href="https://uqload.io/t6a7qia8rv6r.html"><img src="posters/oppenheimer.jpg" width="170" height="250" class="img-film"></a>
+                <a href="#media-player" onclick="changeMedia('t6a7qia8rv6r.html')"><img src="posters/oppenheimer.jpg" width="170" height="250" class="img-film"></a>
             </div>
           </div>
         </section>
 
         <section id="services-section" class="services-section">
-          <a href="https://flcorp.github.io/flcflix/findex.html" target="_blank" class="btn">Accueil</a>
+          <a href="https://flcorp.github.io/flcflix/" target="_blank" class="btn">Accueil</a>
           <a href="https://flcorp.github.io/flcflix/films.html" target="_blank" class="btn">Films</a>
           <a href="https://flcorp.github.io/flcflix/series.html" target="_blank" class="btn">Séries</a>
           <a href="https://flcorp.github.io/flcflix/documentaire.html" target="_blank" class="btn">Documentaires</a>
@@ -92,9 +98,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>Tous droits réservés &copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>

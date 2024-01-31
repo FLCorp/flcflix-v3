@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Films Dramatiques</title>
       <link rel="stylesheet" href="films.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -36,7 +37,7 @@
         <section class="wait">
           <button class="menu-button">Naviguation Rapide (Menu des Catégories)</button>
           <div class="menu">
-            <a href="action.html" class="menu-a">Action/a>
+            <a href="action.html" class="menu-a">Action</a>
             <a href="animation.html" class="menu-a">Animation</a>
             <a href="aventure.html" class="menu-a">Aventure</a>
             <a href="biopic.html" class="menu-a">Biopic</a>
@@ -53,16 +54,21 @@
         </section>
 
         <section id="about-section">
+          <div class="media-container">
+              <iframe id="media-player" width="720" height="370" src="https://uqload.io/embed-vwp2vrx72mwg.html" frameborder="0" allowfullscreen></iframe>
+              <br>
+              <img src="img/title/Drame.png" alt="Logo" class="logo">
+          </div>
           <div>
-            <a href="https://uqload.io/vwp2vrx72mwg.html"><img src="posters/killer_flower_moon.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/s0h8iqor6uxg.html"><img src="posters/moonfall.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/hh3s1nxtcpkr.html"><img src="posters/notre-dame.jpg" width="170" height="250" class="img-film"></a>
-            <a href="https://uqload.io/ekoynw18hsd6.html"><img src="posters/titanic.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('vwp2vrx72mwg.html')"><img src="posters/killer_flower_moon.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('s0h8iqor6uxg.html')"><img src="posters/moonfall.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('hh3s1nxtcpkr.html')"><img src="posters/notre-dame.jpg" width="170" height="250" class="img-film"></a>
+            <a href="#media-player" onclick="changeMedia('ekoynw18hsd6.html')"><img src="posters/titanic.jpg" width="170" height="250" class="img-film"></a>
           </div>
         </section>
 
         <section id="services-section" class="services-section">
-          <a href="https://flcorp.github.io/flcflix/findex.html" target="_blank" class="btn">Accueil</a>
+          <a href="https://flcorp.github.io/flcflix/" target="_blank" class="btn">Accueil</a>
           <a href="https://flcorp.github.io/flcflix/films.html" target="_blank" class="btn">Films</a>
           <a href="https://flcorp.github.io/flcflix/series.html" target="_blank" class="btn">Séries</a>
           <a href="https://flcorp.github.io/flcflix/documentaire.html" target="_blank" class="btn">Documentaires</a>
@@ -81,9 +87,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>Tous droits réservés &copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>
