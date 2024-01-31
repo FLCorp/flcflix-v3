@@ -1,0 +1,60 @@
+@font-face {
+    font-family: FLC-Flix_3;
+    src: url(font/FoundationLogo.ttf);
+}
+
+.media-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.media-btn {
+    font-family: FLC-Flix_3;
+    margin: 5px;
+    width: 200px;
+    padding: 10px 20px;
+    background: #4400ff;
+    border-radius: 50px;
+    color: #fff;
+    border: 2px solid #4400ff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.media-btn:hover {
+    font-family: FLC-Flix_3;
+    margin: 5px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #4400ff;
+    border: 2px solid #4400ff;
+    cursor: pointer;
+}
+
+.media-top {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    visibility: hidden;
+}
+
+.media-top-visible {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+@media screen and (max-width : 768px){
+    .media-container iframe{
+        width: 270px;
+        height: 155px;
+    }
+    .media-top{
+        visibility: initial;
+    }
+}
