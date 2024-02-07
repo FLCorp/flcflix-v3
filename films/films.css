@@ -380,10 +380,18 @@ strong{
 }
 
 @media screen and (max-width : 768px){
+    header{
+        background-color: #d800df;
+    }
     img {
         width: 90px;
         height: 130px;
         border-radius: 5px;
+    }
+    #hero-section {
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #d800df, #0b006c, #0b006c, #000231);
     }
     .categorie-name{
         width: 200px;
@@ -470,5 +478,17 @@ strong{
         color: #0407bd;
         font-size: 16px;
         font-family: netflix;
+    }
+    strong{
+        background: linear-gradient(to right, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .strong2{
+        background: linear-gradient(to left, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
