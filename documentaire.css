@@ -383,11 +383,24 @@ strong{
     height: 205px;
 }
 
+.logomobile{
+    visibility: hidden;
+    display: none;
+}
+
 @media screen and (max-width : 768px){
+    header{
+        background-color: #d800df;
+    }
     img {
         width: 90px;
         height: 130px;
         border-radius: 5px;
+    }
+    #hero-section {
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #d800df, #0b006c, #0b006c, #000231);
     }
     h1{
         font-size: large;
@@ -452,8 +465,14 @@ strong{
         font-family: netflix;
     }
     .logo{
-        width: 300px;
+        width: auto;
+        display: none;
+    }
+    .logomobile{
+        width: 320px;
         height: auto;
+        display: initial;
+        visibility: visible;
     }
     .fs-logo{
         width: auto;
@@ -486,5 +505,24 @@ strong{
         margin: 0 auto;
         width: 280px;
         height: 170px;
+    }
+    strong{
+        background: linear-gradient(to right, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .strong2{
+        background: linear-gradient(to left, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .logomobile{
+        width: 280px;
+        height: auto;
     }
 }

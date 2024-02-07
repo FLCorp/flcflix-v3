@@ -26,11 +26,6 @@ body {
     width: auto;
     height: auto;
 }
-
-.fsd-logo-docs{
-    width: 300px;
-    height: auto;
-}
   
 .container {
     max-width: 1200px;
@@ -451,15 +446,45 @@ strong{
     font-size: 1em;
 }
 
+.conseil-2{
+    font-family: Arial;
+    color: #fff;
+    font-size: 1em;
+    display: none;
+}
+
 .adblock{
     text-decoration: underline;
 }
 
+.logomobile{
+    visibility: hidden;
+    display: none;
+}
+
+.fsd-logo-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+.fsd-logo-docs-mobile{
+    visibility: hidden;
+    display: none;
+}
+
 @media screen and (max-width : 768px){
+    header{
+        background-color: #d800df;
+    }
     img {
         width: 90px;
         height: 130px;
         border-radius: 5px;
+    }
+    #hero-section {
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #d800df, #0b006c, #0b006c, #000231);
     }
     .img-fsd{
         border-radius: 15px;
@@ -531,6 +556,12 @@ strong{
     }
     .logo{
         width: auto;
+        display: none;
+    }
+    .logomobile{
+        width: auto;
+        display: initial;
+        visibility: visible;
     }
     nav ul {
         list-style: none;
@@ -605,5 +636,69 @@ strong{
     .flc-flix-4-img{
         border-radius: 10px;
         width: 100px;
+    }
+    .welcome{
+        display: none;
+    }
+    #flcorporation{
+        display: none;
+    }
+    .news-section{
+        display: none;
+    }
+    .conseil{
+        display: none;
+    }
+    .conseil-2{
+        font-family: Arial;
+        color: #fff;
+        font-size: 0.8em;
+        display: initial;
+    }
+    .new-seasons{
+        width: 280px;
+        height: auto;
+    }
+    strong{
+        background: linear-gradient(to right, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .strong2{
+        background: linear-gradient(to left, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fsd-logo{
+        display: none;
+    }
+    .fsd-logo-mobile{
+        display: initial;
+        visibility: visible;
+        width: 250px;
+        height: auto;
+    }
+    .fsd-logo-docs-mobile{
+        display: initial;
+        visibility: visible;
+        width: 320px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .fsd-logo-mobile{
+        display: initial;
+        visibility: visible;
+        width: 200px;
+        height: auto;
+    }
+    .fsd-logo-docs-mobile{
+        display: initial;
+        visibility: visible;
+        width: 290px;
+        height: auto;
     }
 }

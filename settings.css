@@ -450,9 +450,16 @@ h6{
     h6{
         font-size: 2em;
     }
-    img{
-        width: 300px;
-        height: auto;
+    header{
+        background-color: #d800df;
+    }
+    img {
+        width: 350px;
+    }
+    #hero-section {
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #d800df, #0b006c, #0b006c, #000231);
     }
     #hero-section h1 {
         font-size: 20px;
@@ -592,5 +599,23 @@ h6{
         color: #000000;
         background-color: #F7FF19;
         font-family: netflix;
+    }
+    strong{
+        background: linear-gradient(to right, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .strong2{
+        background: linear-gradient(to left, #d800df,#0407bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    img {
+        width: 300px;
     }
 }

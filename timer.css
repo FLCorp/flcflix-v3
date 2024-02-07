@@ -22,4 +22,7 @@
   .timer{
     font-size: 16px
   }
+  .timer-txt{
+    font-size: 1.3em;
+  }
 }
