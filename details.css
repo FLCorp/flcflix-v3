@@ -7,6 +7,15 @@
     text-decoration: underline;
 }
 
+#showThirdPopupButton{
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    max-width: 60px;
+    max-height: 60px;
+    text-decoration: underline;
+}
+
 .popup2 {
     position: fixed;
     top: 50%;
