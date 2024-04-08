@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Regarder Sherlock</title>
       <link rel="stylesheet" href="season.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -18,7 +19,7 @@
             <li><a href="https://flcorp.github.io/flcflix/documentaire.html">DocumEntaires</a></li>
             <li><a href="https://flcorp.github.io/flcflix/settings.html">ParamEtres</a></li>
             <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
-            <li><a href="https://sites.google.iom/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
+            <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
           </ul>
         </nav>
       </header>
@@ -37,29 +38,38 @@
             <a href="#Season1" class="menu-a">Saison 1</a>
             <a href="#Season2" class="menu-a">Saison 2</a>
             <a href="#Season3" class="menu-a">Saison 3</a>
+            <a href="#Season4" class="menu-a">Saison 4</a>
           </div>
         </section>
 
         <section id="about-section">
           <div>
-            <h1 id="Season1"><strong>Saison 1</strong></h1>
-            <a href="https://uqload.to/v0xsv5pl3rt8.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/8iwmhnacdge7.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/5i35w7o2i5sz.html" class="serie-a">Episode 3</a>
-          </div>
-          <br>
-          <div>
-            <img src="img/Saison2.png" id="Season2"><br>
-            <a href="https://uqload.to/mqic1voila9g.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/adimwi58ubjz.html" class="serie-a">Episode 3</a>
-          </div>
-          <br>
-          <div>
-            <img src="img/Saison3.png" id="Season3"><br>
-            <a href="https://uqload.to/io5njtxb390u.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/v10lb5hw39eo.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/30bodldwhay3.html" class="serie-a">Episode 3</a>
-          </div>
+            <div class="media-container">
+                <iframe id="media-player" width="720" height="370" src="https://uqload.to/embed-mooc4gb70v32.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="button-container">
+              <h1 id="Season1"><strong>Saison 1</strong></h1>
+              <button onclick="changeMedia('v0xsv5pl3rt8.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('8iwmhnacdge7.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('5i35w7o2i5sz.html')" class="media-btn">Episode 3</button>
+              <br><br><br>
+              <img src="img/Saison2.png" id="Season2"><br>
+              <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('mqic1voila9g.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('adimwi58ubjz.html')" class="media-btn">Episode 3</button>
+              <br><br><br>
+              <img src="img/Saison3.png" id="Season3"><br>
+              <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('io5njtxb390u.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('v10lb5hw39eo.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('30bodldwhay3.html')" class="media-btn">Episode 3</button>
+              <br><br><br>
+              <img src="img/Saison4.png" id="Season4"><br>
+              <a href="#media-player" class="media-top-visible">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('h4qhi4sftq67.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('f3bbf6bj4enk.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('u3clzdt2o8b1.html')" class="media-btn">Episode 3</button>
+            </div>
         </section>
 
         <div class="other-series">
@@ -77,9 +87,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>&copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>

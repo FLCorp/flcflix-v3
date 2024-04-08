@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Regarder Doctor Who</title>
       <link rel="stylesheet" href="season.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -18,7 +19,7 @@
             <li><a href="https://flcorp.github.io/flcflix/documentaire.html">DocumEntaires</a></li>
             <li><a href="https://flcorp.github.io/flcflix/settings.html">ParamEtres</a></li>
             <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
-            <li><a href="https://sites.google.iom/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
+            <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
           </ul>
         </nav>
       </header>
@@ -38,73 +39,92 @@
             <a href="#Season2" class="menu-a">Saison 2</a>
             <a href="#Season3" class="menu-a">Saison 3</a>
             <a href="#Season4" class="menu-a">Saison 4</a>
+            <a href="#Season5" class="menu-a">Saison 5</a>
           </div>
         </section>
 
         <section id="about-section">
           <div>
-            <h1 id="Season1"><strong>Saison 1</strong></h1>
-            <a href="https://uqload.to/budk5t06vc7l.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/48gp2z0at16k.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/pxqk4zqvlsqi.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.to/zhz2nlwi41du.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.to/t26w2zdhabl3.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.to/3v1uwm4xolr5.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.to/6tzb21qein50.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.to/64itk439sxnt.html" class="serie-a">Episode 10</a>
-            <a href="https://uqload.to/cgwyzytenoq9.html" class="serie-a">Episode 11</a>
-            <a href="https://uqload.to/8k5dxol63fob.html" class="serie-a">Episode 12</a>
-            <a href="https://uqload.to/ib1ufvlx6u8n.html" class="serie-a">Episode 13</a>
-          </div>
-          <br>
+            <div class="media-container">
+                <iframe id="media-player" width="720" height="370" src="https://uqload.to/embed-budk5t06vc7l.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="button-container">
+              <h1 id="Season1"><strong>Saison 1</strong></h1>
+              <button onclick="changeMedia('budk5t06vc7l.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('48gp2z0at16k.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('pxqk4zqvlsqi.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('zhz2nlwi41du.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('t26w2zdhabl3.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('3v1uwm4xolr5.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('6tzb21qein50.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('64itk439sxnt.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('cgwyzytenoq9.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('8k5dxol63fob.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('ib1ufvlx6u8n.html')" class="media-btn">Episode 13</button>
+              <br><br><br>
+              <img src="img/Saison2.png" id="Season2"><br>
+              <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('2nh8r31vcvnh.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('61ct6nhq0l46.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('emzlqyxa677j.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('n7w249ojxkpv.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('36xsu85uutj0.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('pwc3jqe6s5tg.html')" class="media-btn">Episode 6</button>
+              <button onclick="changeMedia('6wcd9dqw4el4.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('8r8a7hmnm7g3.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('v659s3447q4h.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('jbxw9s1b26sf.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('nxaj9liy5vh4.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('3k2d1mslxxbt.html')" class="media-btn">Episode 13</button>
+              <br><br><br>
+              <img src="img/Saison3.png" id="Season3"><br>
+              <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('s96j68s7jput.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('zszfwdnlgcfr.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('i5cnzctxwtk1.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('ci0xnhqgazme.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('60mx9f16c0yp.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('f0l1dne9aekc.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('pyk01iq7vak2.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('48uwloje67c9.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('2fo4iba6c97m.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('l29sqyh8h14l.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('xwtz4h4whsaz.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('171nb3eo97gv.html')" class="media-btn">Episode 13</button>
+              <br><br><br>
+              <img src="img/Saison4.png" id="Season4"><br>
+              <a href="#media-player" class="media-top-visible">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('wvxc2mz7tc2p.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('89vqx476lpyn.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('w5xrwu6r8vlj.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('268q3f92fjuv.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('xgb5368ejia2.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('89ozuq3sdcmi.html')" class="media-btn">Episode 6</button>
+              <button onclick="changeMedia('w2e25kr2vr4f.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('23ezij9185n6.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('uxhl3oiodgz2.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('3adgqvgnf5dk.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('ximxg8m7qioz.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('trffrr8hjkik.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('p3sihgi9wbk3.html')" class="media-btn">Episode 13</button>
+              <br><br><br>
+              <img src="img/Saison5.png" id="Season5"><br>
+              <a href="#media-player" class="media-top-visible">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('0634qcvbvjjp.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('cyestzov7sni.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('b6b0j905qklk.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('8efhliubpoyc.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('3eox6htu3mau.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('byep8ge3w6bu.html')" class="media-btn">Episode 6</button>
+              <button onclick="changeMedia('l1m0j9hneqsa.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('th5xytn9rvmh.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('je4mmsjm1xe9.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('uu9b0x9xutdu.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('bnvffahfx6u4.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('1bnetcpexeib.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('cf52f31utab4.html')" class="media-btn">Episode 13</button>
+            </div>
           <div>
-            <img src="img/Saison2.png" id="Season2"><br>
-            <a href="https://uqload.to/2nh8r31vcvnh.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/61ct6nhq0l46.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/emzlqyxa677j.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.to/n7w249ojxkpv.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.to/36xsu85uutj0.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.to/pwc3jqe6s5tg.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.to/6wcd9dqw4el4.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.to/8r8a7hmnm7g3.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.to/v659s3447q4h.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.to/jbxw9s1b26sf.html" class="serie-a">Episode 11</a>
-            <a href="https://uqload.to/nxaj9liy5vh4.html" class="serie-a">Episode 12</a>
-            <a href="https://uqload.to/3k2d1mslxxbt.html" class="serie-a">Episode 13</a>
-          </div>
-          <br>
-          <div>
-            <img src="img/Saison3.png" id="Season3"><br>
-            <a href="https://uqload.to/s96j68s7jput.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/zszfwdnlgcfr.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/i5cnzctxwtk1.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.to/ci0xnhqgazme.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.to/60mx9f16c0yp.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.to/f0l1dne9aekc.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.to/pyk01iq7vak2.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.to/48uwloje67c9.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.to/2fo4iba6c97m.html" class="serie-a">Episode 10</a>
-            <a href="https://uqload.to/l29sqyh8h14l.html" class="serie-a">Episode 11</a>
-            <a href="https://uqload.to/xwtz4h4whsaz.html" class="serie-a">Episode 12</a>
-            <a href="https://uqload.to/l71nb3eo97gv.html" class="serie-a">Episode 13</a>
-          </div>
-          <br>
-          <div>
-            <img src="img/Saison4.png" id="Season4"><br>
-            <a href="https://uqload.to/wvxc2mz7tc2p.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/89vqx476lpyn.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/w5xrwu6r8vlj.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.to/268q3f92fjuv.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.to/xgb5368ejia2.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.to/89ozuq3sdcmi.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.to/w2e25kr2vr4f.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.to/23ezij9185n6.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.to/uxhl3oiodgz2.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.to/3adgqvgnf5dk.html" class="serie-a">Episode 10</a>
-            <a href="https://uqload.to/ximxg8m7qioz.html" class="serie-a">Episode 11</a>
-            <a href="https://uqload.to/trffrr8hjkik.html" class="serie-a">Episode 12</a>
-            <a href="https://uqload.to/p3sihgi9wbk3.html" class="serie-a">Episode 13</a>
-          </div>
         </section>
 
         <div class="other-series">
@@ -122,9 +142,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>Tous droits réservés &copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>
