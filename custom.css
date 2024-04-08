@@ -380,6 +380,32 @@ strong{
 .chill-btn:hover {
     background: linear-gradient(to bottom, #17f05c, #1cd9f3);
 }
+  
+.fob-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.fob-btn:hover {
+    background: linear-gradient(to bottom, #0407bd, #0495bd);
+}
+  
+.sphere-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.sphere-btn:hover {
+    background: linear-gradient(to bottom, #c600af, #6600c6);
+}
 
 .img-fsd{
     border-radius: 15px;
