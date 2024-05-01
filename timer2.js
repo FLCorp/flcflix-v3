@@ -1,11 +1,11 @@
 // Récupérer les éléments du DOM
-const daysElement = document.getElementById('days');
-const hoursElement = document.getElementById('hours');
-const minutesElement = document.getElementById('minutes');
-const secondsElement = document.getElementById('seconds');
+const daysElementTwo = document.getElementById('daysTwo');
+const hoursElementTwo = document.getElementById('hoursTwo');
+const minutesElementTwo = document.getElementById('minutesTwo');
+const secondsElementTwo = document.getElementById('secondsTwo');
 
 // Date et heure cible (remplacez cette valeur par la date et l'heure souhaitées)
-const targetDate = new Date('2024-05-06T20:00:00');
+const targetDate = new Date('2024-07-01T00:00:00');
 
 function updateTimer() {
   // Obtenir la date et l'heure actuelles
@@ -16,12 +16,12 @@ function updateTimer() {
 
   if (remainingTime <= 0) {
     // Si la date cible est dépassée, afficher 00:00:00:00
-    daysElement.textContent = '00';
-    hoursElement.textContent = '00';
-    minutesElement.textContent = '00';
-    secondsElement.textContent = '00';
+    daysElementTwo.textContent = '00';
+    hoursElementTwo.textContent = '00';
+    minutesElementTwo.textContent = '00';
+    secondsElementTwo.textContent = '00';
     clearInterval(interval);
-    alert("La nouvelle MàJ de FLC Flix débarque bientôt!");
+    alert("La nouvelle MAJ débarque bientôt!");
     return;
   }
 
@@ -32,10 +32,10 @@ function updateTimer() {
   const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
   // Mettre à jour l'affichage du timer
-  daysElement.textContent = String(days).padStart(2, '0');
-  hoursElement.textContent = String(hours).padStart(2, '0');
-  minutesElement.textContent = String(minutes).padStart(2, '0');
-  secondsElement.textContent = String(seconds).padStart(2, '0');
+  daysElementTwo.textContent = String(days).padStart(2, '0');
+  hoursElementTwo.textContent = String(hours).padStart(2, '0');
+  minutesElementTwo.textContent = String(minutes).padStart(2, '0');
+  secondsElementTwo.textContent = String(seconds).padStart(2, '0');
 }
 
 // Mettre à jour le timer toutes les secondes
