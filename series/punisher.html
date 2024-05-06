@@ -3,9 +3,10 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>FLC Flix V3.0.0</title>
+      <title>FLC Flix V3 - Regarder The Punisher</title>
       <link rel="stylesheet" href="season.css">
       <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="media.css">
       <link rel="icon" href="img/FLC-Flix_3-logo_v2_logo.png">
     </head>
     <body>
@@ -33,20 +34,41 @@
 
         <section id="about-section">
           <div>
-            <h1><strong>Saison 1</strong></h1>
-            <a href="https://uqload.to/szukyr8q2q0r.html" class="serie-a">Episode 1</a>
-            <a href="https://uqload.to/1dnaghvlvrmp.html" class="serie-a">Episode 2</a>
-            <a href="https://uqload.to/sgb4xgqw3bix.html" class="serie-a">Episode 3</a>
-            <a href="https://uqload.to/vaogrelc4xam.html" class="serie-a">Episode 4</a>
-            <a href="https://uqload.to/4s1pthxzxxt6.html" class="serie-a">Episode 5</a>
-            <a href="https://uqload.to/cams9s98fcix.html" class="serie-a">Episode 6</a>
-            <a href="https://uqload.to/jn3j5oxnohza.html" class="serie-a">Episode 7</a>
-            <a href="https://uqload.to/2lzivppbf6gj.html" class="serie-a">Episode 8</a>
-            <a href="https://uqload.to/vuonfxrabzss.html" class="serie-a">Episode 9</a>
-            <a href="https://uqload.to/7grz7rlfxqty.html" class="serie-a">Episode 10</a>
-            <a href="https://uqload.to/mi3mn8q3dmvw.html" class="serie-a">Episode 11</a>
-            <a href="https://uqload.to/rh7l5wvl8o3x.html" class="serie-a">Episode 12</a>
-            <a href="https://uqload.to/tvou3gk5rip6.html" class="serie-a">Episode 13</a>
+              <div class="media-container">
+                  <iframe id="media-player" width="720" height="370" src="https://uqload.to/embed-szukyr8q2q0r.html" frameborder="0" allowfullscreen></iframe>
+              </div>
+            <div class="button-container">
+              <h1 id="Season1"><strong>Saison 1</strong></h1>
+              <button onclick="changeMedia('szukyr8q2q0r.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('1dnaghvlvrmp.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('sgb4xgqw3bix.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('vaogrelc4xam.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('4s1pthxzxxt6.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('cams9s98fcix.html')" class="media-btn">Episode 6</button>
+              <button onclick="changeMedia('jn3j5oxnohza.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('2lzivppbf6gj.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('vuonfxrabzss.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('7grz7rlfxqty.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('mi3mn8q3dmvw.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('rh7l5wvl8o3x.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('tvou3gk5rip6.html')" class="media-btn">Episode 13</button>
+              <br><br><br>
+              <img src="img/Saison2.png" class="logo" id="Season2"><br>
+              <a href="#media-player" class="media-top">Retour à l'épisode</a><br>
+              <button onclick="changeMedia('efj4ge0dmfpb.html')" class="media-btn">Episode 1</button>
+              <button onclick="changeMedia('tjzl87wws279.html')" class="media-btn">Episode 2</button>
+              <button onclick="changeMedia('py3pzwzn8kft.html')" class="media-btn">Episode 3</button>
+              <button onclick="changeMedia('fbupad1f1b7b.html')" class="media-btn">Episode 4</button>
+              <button onclick="changeMedia('qyrjd9k2imjt.html')" class="media-btn">Episode 5</button>
+              <button onclick="changeMedia('eg7vcyruq370.html')" class="media-btn">Episode 6</button>
+              <button onclick="changeMedia('tdvji8bhi8rb.html')" class="media-btn">Episode 7</button>
+              <button onclick="changeMedia('am2d2lb2bdlj.html')" class="media-btn">Episode 8</button>
+              <button onclick="changeMedia('agmkawemwt6v.html')" class="media-btn">Episode 9</button>
+              <button onclick="changeMedia('vxs671ncr2ow.html')" class="media-btn">Episode 10</button>
+              <button onclick="changeMedia('3nsy62e457eq.html')" class="media-btn">Episode 11</button>
+              <button onclick="changeMedia('5k0aemjbz4gj.html')" class="media-btn">Episode 12</button>
+              <button onclick="changeMedia('yc7niuh8f7ao.html')" class="media-btn">Episode 13</button>
+            </div>
           </div>
         </section>
 
@@ -65,9 +87,10 @@
       </main>
 
       <footer>
-        <p>Tous droits réservés &copy; 2023 FLCorporation | &copy; FLCorp-Web</p>
+        <p>&copy; 2024 FLCorporation | &copy; FLCorp-Web</p>
       </footer>
 
       <script src="menu.js"></script>
+      <script src="media.js"></script>
   </body>
 </html>
