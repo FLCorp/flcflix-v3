@@ -449,7 +449,7 @@ strong{
     display: none; /* Masquer par défaut */
 }
 
-.popup button{
+.close-button{
     width: 100px;
     height: 30px;
     background-color: #0003be;
@@ -527,6 +527,24 @@ strong{
 .fsd-logo-docs-mobile{
     visibility: hidden;
     display: none;
+}
+
+.v4-deployment {
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 12px 32px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 1px  black;
+    transition: all .2s ease;
+    font-size: 1em;
+    font-weight: 800;
+}
+  
+.v4-deployment:hover {
+    transform: translate(-2px, -1px);
+    box-shadow: 7px 7px 1px  rgb(0, 0, 0);
+    transition: all .2s ease-in;
 }
 
 @media screen and (max-width : 768px){
@@ -649,7 +667,7 @@ strong{
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         display: none; /* Masquer par défaut */
     }
-    .popup button{
+    .close-button{
         width: 100px;
         height: 30px;
         background-color: #0003be;
@@ -742,6 +760,22 @@ strong{
         visibility: visible;
         width: 320px;
         height: auto;
+    }
+    .v4-deployment {
+        width: auto;
+        color: #000;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid black;
+        padding: 12px 32px;
+        border-radius: 22px;
+        box-shadow: 2px 2px 1px  black;
+        transition: all .2s ease;
+        font-size: 1em;
+    }
+    .v4-deployment:hover {
+        transform: translate(-2px, -1px);
+        box-shadow: 7px 7px 1px  rgb(0, 0, 0);
+        transition: all .2s ease-in;
     }
 }
 
