@@ -422,6 +422,10 @@ strong{
     -webkit-text-fill-color: transparent;
 }
 
+.episodes-title{
+    font-family: netflix;
+}
+
 @media screen and (max-width : 768px){
     header{
         background-color: #d800df;

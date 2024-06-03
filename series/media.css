@@ -38,6 +38,10 @@
     cursor: pointer;
 }
 
+.media-btn-tg {
+    display: none;
+}
+
 .media-top {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
