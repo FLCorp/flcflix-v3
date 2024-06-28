@@ -378,6 +378,7 @@ h6{
 }
 
 .btn4 {
+    margin-top: 10px;
     width: 30%;
     display: inline-block;
     padding: 12px 30px;
@@ -401,6 +402,7 @@ h6{
 }
 
 .btn5 {
+    margin-top: 10px;
     width: 30%;
     display: inline-block;
     padding: 12px 30px;
@@ -420,6 +422,30 @@ h6{
     border-color: #F7FF19;
     color: #000000;
     background-color: #F7FF19;
+    font-family: netflix;
+}
+
+.btn6 {
+    margin-top: 10px;
+    width: 30%;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #650000;
+    text-decoration: none;
+    border: 3px solid #650000;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, border-color 0.7s ease, color 0.7s ease;
+    font-family: netflix;
+    font-size: 1.5em;
+    text-align: center;
+}
+  
+.btn6:hover {
+    border-color: #650000;
+    color: #000000;
+    background-color: #650000;
     font-family: netflix;
 }
 
